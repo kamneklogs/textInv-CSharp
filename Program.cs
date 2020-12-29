@@ -12,7 +12,29 @@ namespace textInversorCSharp
 
             string text = myReader.readFile();
 
-            System.Console.WriteLine(text);
+
+
+            System.Console.WriteLine(Inv.invString(text));
+        }
+    }
+
+    class Inv
+    {
+
+        public static string invString(string s)
+        {
+
+            string input = s, output = "";
+
+
+            for (int i = input.Length; i > 0; i--)
+            {
+
+                output = output + input[i - 1];
+
+            }
+
+            return output;
         }
     }
 
@@ -32,7 +54,6 @@ namespace textInversorCSharp
 
         public string readFile()
         {
-
 
             return reader.ReadLine();
         }
