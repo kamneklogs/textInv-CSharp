@@ -1,0 +1,16 @@
+/home/klogs/projects/textInversorCSharp/bin/Debug/net5.0/textInversorCSharp
+/home/klogs/projects/textInversorCSharp/bin/Debug/net5.0/textInversorCSharp.deps.json
+/home/klogs/projects/textInversorCSharp/bin/Debug/net5.0/textInversorCSharp.runtimeconfig.json
+/home/klogs/projects/textInversorCSharp/bin/Debug/net5.0/textInversorCSharp.runtimeconfig.dev.json
+/home/klogs/projects/textInversorCSharp/bin/Debug/net5.0/textInversorCSharp.dll
+/home/klogs/projects/textInversorCSharp/bin/Debug/net5.0/ref/textInversorCSharp.dll
+/home/klogs/projects/textInversorCSharp/bin/Debug/net5.0/textInversorCSharp.pdb
+/home/klogs/projects/textInversorCSharp/obj/Debug/net5.0/textInversorCSharp.csprojAssemblyReference.cache
+/home/klogs/projects/textInversorCSharp/obj/Debug/net5.0/textInversorCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/klogs/projects/textInversorCSharp/obj/Debug/net5.0/textInversorCSharp.AssemblyInfoInputs.cache
+/home/klogs/projects/textInversorCSharp/obj/Debug/net5.0/textInversorCSharp.AssemblyInfo.cs
+/home/klogs/projects/textInversorCSharp/obj/Debug/net5.0/textInversorCSharp.csproj.CoreCompileInputs.cache
+/home/klogs/projects/textInversorCSharp/obj/Debug/net5.0/textInversorCSharp.dll
+/home/klogs/projects/textInversorCSharp/obj/Debug/net5.0/ref/textInversorCSharp.dll
+/home/klogs/projects/textInversorCSharp/obj/Debug/net5.0/textInversorCSharp.pdb
+/home/klogs/projects/textInversorCSharp/obj/Debug/net5.0/textInversorCSharp.genruntimeconfig.cache
