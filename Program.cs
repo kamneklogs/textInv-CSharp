@@ -56,9 +56,14 @@ namespace textInversorCSharp
         {
 
             return reader.ReadLine();
+
         }
 
 
+        ~Reader()
+        {
+            reader.Close();
+        }
 
 
 
