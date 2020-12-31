@@ -8,13 +8,23 @@ namespace textInversorCSharp
         static void Main(string[] args)
         {
 
+
             Reader myReader = new Reader();
+            string text = "";
 
-            string text = myReader.readFile();
+            try
+            {
+                text = myReader.readFile();
+            }
+            catch (System.Exception e) when (e.GetType() == typeof(FileNotFoundException)) // new
+            {
 
+                System.Console.WriteLine(e.Message);
 
+            }
 
             System.Console.WriteLine(Inv.invString(text));
+        
         }
     }
 
@@ -48,24 +58,17 @@ namespace textInversorCSharp
 
         public Reader()
         {
-            reader = new StreamReader("t.txt");
+            reader = new StreamReader("data/t.txt");
         }
 
 
-        public string readFile()
-        {
-
-            return reader.ReadLine();
-
-        }
+        public string readFile() => reader.ReadLine();  //lambda
 
 
         ~Reader()
         {
             reader.Close();
         }
-
-
 
     }
 }
